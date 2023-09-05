@@ -1,6 +1,6 @@
 
 # Leadership Analytics Release Notes
 
-## 09/06/2023 - Initial Release
+##  Initial Release (1.0.0) - 09/06/2023 
 
 This release 
