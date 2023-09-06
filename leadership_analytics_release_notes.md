@@ -12,13 +12,14 @@ Leadership Analytics is an application that enables school and district leadersh
 5. Course Grades: Ds and Fs
 6. Assessment
 
-Detailed information about the metrics and business rules of each of those dashboards can be found in the "About this Dashboard" modal to the right of the selected dashboard title. 
- 
-Users can navigate to any of these dashboards from a left-side navigation bar that can be expanded to see dashboard names and minimized when exploring selected dashboards. 
+Detailed information about the metrics and business rules for each of those dashboards can be found in the "About this Dashboard" modal to the right of the selected dashboard title.
 
-Each dashboard has its own filter panel where users can choose the schools, student groups, and metric-related information they would like to see and then clicking "Apply Filters". The filter panel can also be minimized while viewing the dashboard. 
+Users can navigate to any of these dashboards from a left-side navigation bar that can be expanded to see dashboard names and minimized when exploring selected dashboards.
 
-Each of these dashboards contain the most recent date of data for the metric displayed and a table displaying which filters have been selected at the top of the page. Then, there is a "key metrics" section that contains district aggregates and high-level information of interest for that metric. In the middle of each dashboard, there is a student table which will allow users to be able to quickly see which students are referenced in a chart when cross-filtered. Finally, at the bottom of each dashboard, a key metric is displayed by student group. 
+Within each dashboard, users have multiple ways to interact with visualizations.
+* Filters: Each dashboard has a filter panel where users can select data by school(s), student groups, and other data. Filters are applied by clicking "Apply Filters" at the bottom of the filter panel. The filter panel can also be minimized while viewing the dashboard.
+* Cross-Filters Users can also cross-filter the dashboard by clicking within visuals and selecting a group of interest. Multiple cross-filters can be applied within each dashboard.
+* Hover-Over: Users can hover over any visual to see additional information.
+* Visual Menu: If they choose, users can also download the underlying data of each visual by clicking on the three-dot menu in the top right of a chart and selecting download and the format of their choice. The three-dot menu also allows users to view specific visuals in full screen or see descriptions of charts.
 
-Within each dashboard, users have multiple ways to interact with the visualizations. Users can cross-filter the dashboard by selecting any bar. Users can also hover over any visual to see the metric results. 
-Users can also download the underlying data of each visual by clicking on the 3 dot menu in the top right of a chart and selecting download and the version of download they prefer. 
+Each dashboard contains the most recent date of data for the metric displayed and a table displaying which filters have been selected at the top of the page. A "key metrics" section that contains district aggregates and high-level information of interest for that metric is located at the top of each dashboard. In the middle of each dashboard, there is a student table allowing users to quickly identify students of interest. Finally, at the bottom of each dashboard, the key metric is displayed by various student groups.
