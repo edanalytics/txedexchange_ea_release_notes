@@ -3,9 +3,9 @@
 
 ## 1.0.0 - 01/31/2024
 
-Introduced a Profile dashboard that allows district administrators and school leaders to explore summary metrics related to domains covered in the platform such as enrollment, attendance, behavior, and grades. 
+This version introduced a Profile dashboard that allows district administrators and school leaders to explore summary metrics related to domains covered in the platform such as enrollment, attendance, behavior, and grades. 
 
-##  Initial Release (1.0.0) - 09/06/2023 
+##  Initial Release - 09/06/2023 
 
 Leadership Analytics is an application that enables school and district leadership to explore their data and more easily answer questions about their students. This initial release contains six dashboards.
 
