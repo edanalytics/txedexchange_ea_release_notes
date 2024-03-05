@@ -1,6 +1,12 @@
 
 # Leadership Analytics Release Notes
 
+## 1.1.0 - 03/10/2024
+
+- Removed future exit dates from enrollment dashboard withdraw counts
+- Added subheaders to district charts in Attendance and Chronic Absenteeism dashboards
+- Enhancements to dashboard descriptions
+
 ## 1.0.0 - 01/31/2024
 
 This version introduced a Profile dashboard that allows district administrators and school leaders to explore summary metrics related to domains covered in the platform such as enrollment, attendance, behavior, and grades. 
