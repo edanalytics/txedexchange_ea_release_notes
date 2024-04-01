@@ -1,6 +1,10 @@
 
 # Leadership Analytics Release Notes
 
+## 1.2.0 - 04/07/2024
+- Profile Dashboard: Change to allow district metrics to flow to Profile dashboard without staff data populated in the warehouse
+- Update Exchange SDK to 2.0.9
+
 ## 1.1.0 - 03/10/2024
 
 - Removed future exit dates from enrollment dashboard withdraw counts
