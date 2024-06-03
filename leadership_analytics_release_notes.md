@@ -1,6 +1,13 @@
 
 # Leadership Analytics Release Notes
 
+## 2.0.0 - 06/11/2024
+- Section Profile dashboard
+- Student Profile dashboard
+- Grade counts re-work
+- Profile re-work
+- Assessment re-work
+
 ## 1.2.0 - 04/07/2024
 - Profile Dashboard: Change to allow district metrics to flow to Profile dashboard without staff data populated in the warehouse
 - Update Exchange SDK to 2.0.9
