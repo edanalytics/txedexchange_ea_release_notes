@@ -1,6 +1,22 @@
 
 # Leadership Analytics Release Notes
 
+## 2.0.0 - 06/11/2024
+
+This release introduces three new dashboards and a significant re-work of three existing dashboards. 
+
+- Section Profile: This is a new dashboard that offers a comprehensive overview of the academic performance and demographic characteristics of the students in each section and/or educator's classes.Users can explore detailed information about the students in each section or educator's classes, including student grades, daily attendance, overall discipline actions, and demographic data aggregated by section.
+
+- Student Profile: This is a new dashboard that offers a comprehensive overview of individual students, providing valuable insights into their behaviors, academic performance, demographic characteristics, and other student attributes.
+  
+- Course Grades Snapshot: This dashboard is replacing the D/F Counts dashboard. This allows users more freedom to chose a grade cutoff and see all of the students to have at least one grade that meet that criteria instead of just D/Fs.
+
+- Profile Grades Change: The Percentage of Students at least one Non-Passing Grade chart is now based on transcript data instead of the most recent grading period in the grades resource. It shows the percentage of students who have at least one non-passing grade on any of their courses on their transcript in the chosen year. Denominator is the unique number of students with a course grade on transcript. This is calculated at the district, school, and grade level.
+  
+- Assessment: Changes to the assessment dashboard include improving chart selection and color schemes to allow users to make more meaning from the dashboard. 
+  
+- Asessment Student Detail: This is a new dashboard that provides information about assessment results at the student-level. The dashboard allows users several ways to filter the data, like filtering to one or more assessments and test seasons at the same time, selecting a performance level or student characteristics. 
+
 ## 1.2.0 - 04/07/2024
 - Profile Dashboard: Change to allow district metrics to flow to Profile dashboard without staff data populated in the warehouse
 - Update Exchange SDK to 2.0.9
