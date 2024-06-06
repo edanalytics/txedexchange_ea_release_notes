@@ -1,8 +1,11 @@
 
 # Leadership Analytics Release Notes
 
+This release introduces two new dashboards and a significant re-work of three existing dashboards. 
+
 ## 2.0.0 - 06/11/2024
-- Section Profile dashboard
+- Section Profile
+  - 
 - Student Profile dashboard
 - Grade counts re-work
 - Profile re-work
