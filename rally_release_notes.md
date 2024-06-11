@@ -1,5 +1,11 @@
 # Rally Release Notes
 
+## 2.0.0 - 06/11/2024
+
+This release focused on the expansion of supported assessments, plus a minor UI update:
+- Added CLI CIRCLE and TX-KEA metadata to allow those assessments to persist to Rally's FE
+- Updated the Classroom page ring charts and assessment charts to only use permitted aria-labels
+
 ## 1.2.0 - 04/07/2024
 
 This release focused on some minor design enhancements that did not make it into v1.0.
