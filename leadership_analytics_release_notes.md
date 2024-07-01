@@ -7,6 +7,7 @@ This release includes minor features across all relevant dashboards.
 - Added a student filter to all dashboards with a student table to allow users to select any group of students.
 - Increased the row limit to the maximum for the student tables to allow users to see as many students as possible.
 - Revised the district metric section to improve visibility of titles.
+- Updated Enrollment Status filter values on Attendance and Behavior dashboards
   
 ## 2.0.0 - 06/11/2024
 
