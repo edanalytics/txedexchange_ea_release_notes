@@ -1,6 +1,13 @@
 
 # Leadership Analytics Release Notes
 
+## 2.1.0 - 07/23/2024
+
+This release includes minor features across all relevant dashboards.
+- Added a student filter to all dashboards with a student table to allow users to select any group of students.
+- Increased the row limit to the maximum for the student tables to allow users to see as many students as possible.
+- Revised the district metric section to improve visibility of titles.
+  
 ## 2.0.0 - 06/11/2024
 
 This release introduces three new dashboards and a significant re-work of three existing dashboards. 
