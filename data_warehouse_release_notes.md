@@ -1,5 +1,13 @@
 # Data Warehouse Release Notes
 
+## 2.1.0 - 07/23/2024
+
+This release included
+* adding the TEA version of id_system
+* replacing `courseIdentificationSystemDescriptor` values with their `shortDescription`
+* configuring descriptors and extensions from `studentAcademicRecord.diplomas` and `courseTranscripts` for Region 10's CCMR app
+* updating warehouse to latest version of edu_wh (0.3.3)
+
 ## 2.0.0 - 06/11/2024
 
 This release included
