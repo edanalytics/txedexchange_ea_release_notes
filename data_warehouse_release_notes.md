@@ -6,7 +6,7 @@ This release included
 * adding the TEA version of id_system
 * replacing `courseIdentificationSystemDescriptor` values with their `shortDescription`
 * configuring descriptors and extensions from `studentAcademicRecord.diplomas` and `courseTranscripts` for Region 10's CCMR app
-* updating warehouse to latest version of edu_wh (0.3.3), which includes warehouse models for diplomas, graduation plan, and [more](https://educationanalytics.monday.com/boards/3556827529/pulses/3611787577)
+* updating warehouse to latest version of edu_wh (0.3.3), which includes warehouse models for diplomas, graduation plan, and [more]([https://educationanalytics.monday.com/boards/3556827529/pulses/3611787577](https://github.com/edanalytics/edu_wh/blob/main/CHANGELOG.md#edu_wh-v033))
 
 ## 2.0.0 - 06/11/2024
 
