@@ -1,6 +1,12 @@
 
 # Leadership Analytics Release Notes
 
+## 2.2.0 - 09/24/2024
+
+This release introduces a new cross-year assessment feature to the Assessment: Student Detail.
+
+- The Assessment: Student Detail dashboard now allows the user to look at a student's historical assessment results. The tables and filters have an Enrollment School Year and Asssessment School Year. The user can select the Enrollment School Year to see the historic (enrollment year and previous) test results for those students. They can filter to a specific Assessment School Year if they only want to see assessment results from one year. 
+
 ## 2.1.0 - 07/23/2024
 
 This release includes minor features across all relevant dashboards.
