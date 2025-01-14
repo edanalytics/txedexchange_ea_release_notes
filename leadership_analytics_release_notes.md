@@ -1,6 +1,10 @@
 
 # Leadership Analytics Release Notes
 
+## 3.0 - 
+
+This release includes updating the Exchange SDK to V2.3.1.
+
 ## 2.2.0 - 09/24/2024
 
 This release introduces a new cross-year assessment feature to the Assessment: Student Detail.
