@@ -1,5 +1,11 @@
 # Rally Release Notes
 
+## 3.0.0 - 01/28/2025
+
+This release focused on the expansion of supported assessments:
+- Added i-Ready metadata to allow those assessments to persist to Rally's FE
+- Added ACT to Stadium (also represented in the data warehouse workstream)
+
 ## 2.0.0 - 06/11/2024
 
 This release focused on the expansion of supported assessments, plus a minor UI update:
