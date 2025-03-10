@@ -1,5 +1,13 @@
 # Data Warehouse Release Notes
 
+## 3.1.0 - 03/31/2025
+
+This release included
+* Removing rules that have been discontinued by TEA
+* Updating rules to reflect changes listed in the TEA changelog
+* Optimizing warehouse efficiency by implementing refactoring validation code with DRY principles and improving join performance.
+* Adding updated promotion logic to 16 prioritized L3 Summer rules marked 3.1 in column J of [this](https://docs.google.com/spreadsheets/d/1IV29MxGqdzez80GLu2kxkhMJ-afsP7km0VdVgzeYKXQ/edit?gid=1290404059#gid=1290404059) spreadsheet.
+
 ## 2.1.0 - 07/23/2024
 
 This release included
