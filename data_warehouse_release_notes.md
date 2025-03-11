@@ -1,5 +1,13 @@
 # Data Warehouse Release Notes
 
+## 3.1.0 - 03/31/2025
+
+This release included
+* Removing validation rules that have been discontinued by TEA
+* Updating validation rules to reflect changes listed in the TEA changelog
+* Optimizing validation rules efficiency by refactoring code with DRY principles and improving join performance.
+* Adding updated validation promotion logic to 16 prioritized L3 Summer rules marked 3.1 in column J of [this](https://docs.google.com/spreadsheets/d/1IV29MxGqdzez80GLu2kxkhMJ-afsP7km0VdVgzeYKXQ/edit?gid=1290404059#gid=1290404059) spreadsheet.
+
 ## 2.2.0 - 10/15/2024
 
 This release included
@@ -16,7 +24,6 @@ as well as additional updates to support Ed-Fi Data Standard v5.0 changes/additi
 * add `preferred_first_name`, `preferred_last_name`, and `gender_identity` columns to dim_staff
 * add `preferred_first_name`, `preferred_last_name`, and `gender_identity` columns to dim_parent
 * fix surrogate key creation for `stg_ef3__grading_periods` to properly hanlde lowering of alphanumeric column (`grading_period_name`) that is part of natural key
-
 
 ## 2.1.0 - 07/23/2024
 
