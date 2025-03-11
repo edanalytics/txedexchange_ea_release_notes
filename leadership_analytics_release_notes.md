@@ -1,7 +1,17 @@
 
 # Leadership Analytics Release Notes
 
-## 3.0 - 
+## 3.1 - 03/27/2025
+This release includes a variety of front-end adjustments to enhance and standardize the user experience.
+- Assessment: Student Detail redesign to clarify selected year assessments vs assessment history.
+- Remove separators between tables in Section Profile and Assessment: Student Detail
+- Add "Search" to all school and student tables
+- Update Most Recent Date language to be more descriptive and consistent
+- Standardize order of student group charts for yes/no variables.
+- Sort attendance rate charts so that the best attendance group is at the top of the chart
+- Add timeline navigator to time series charts
+
+## 3.0 - 01/28/2025
 
 This release includes updating the Exchange SDK to V2.3.1.
 

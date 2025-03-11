@@ -8,6 +8,23 @@ This release included
 * Optimizing validation rules efficiency by refactoring code with DRY principles and improving join performance.
 * Adding updated validation promotion logic to 16 prioritized L3 Summer rules marked 3.1 in column J of [this](https://docs.google.com/spreadsheets/d/1IV29MxGqdzez80GLu2kxkhMJ-afsP7km0VdVgzeYKXQ/edit?gid=1290404059#gid=1290404059) spreadsheet.
 
+## 2.2.0 - 10/15/2024
+
+This release included
+* additional validation rules implemented
+* updates to existing validation rules for 2025
+* addition of campus IDs to validation rules
+* assessment automation and configuration updates
+* pulling in updated DHC package
+* upgrades to other under-the-hood packages
+
+as well as additional updates to support Ed-Fi Data Standard v5.0 changes/additions via sub-packages `edu_edfi_source` and `edu_wh` such as
+* change the source of `dim_parent` to `stg_ef3__contacts` and `fct_student_parent_association` to `stg_ef3__student_contact_associations` due to the rename from parent to contact in Ed-Fi data standard v5.0
+* add `section_type` descriptor column to `dim_section`
+* add `preferred_first_name`, `preferred_last_name`, and `gender_identity` columns to dim_staff
+* add `preferred_first_name`, `preferred_last_name`, and `gender_identity` columns to dim_parent
+* fix surrogate key creation for `stg_ef3__grading_periods` to properly hanlde lowering of alphanumeric column (`grading_period_name`) that is part of natural key
+
 ## 2.1.0 - 07/23/2024
 
 This release included
