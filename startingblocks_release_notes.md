@@ -101,6 +101,9 @@ StartingBlocks is a manged Ed-Fi hosting service.
 - Imported new profiles
 - Deployed new app code
 
+### 2025.2.1 April Update
+- Applied new binary from TEA
+
 
 ## Prod-2025 Environment
 ### Initial Deployment
@@ -135,3 +138,6 @@ StartingBlocks is a manged Ed-Fi hosting service.
 - Ran scripts to update resource claims
 - Imported new profiles
 - Deployed new app code
+
+### 2025.2.1 April Update
+- Applied new binary from TEA
