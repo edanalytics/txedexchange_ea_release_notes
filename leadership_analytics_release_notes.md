@@ -1,5 +1,15 @@
 
 # Leadership Analytics Release Notes
+## 5.0 - 09/08/2025
+This release includes a number of minor visual enhancements, bugfixes, new metrics, and additional filter options.
+-All dashboard descriptions now include a date for the last time the description itself was updated
+-All dashboards now allow grade level to be ordered correctly
+-All dashboards have had some minor updates to chart colors
+-The Assessment Dashboard now allows multi-season selection and seasons in the dashboard follow chrnonological order of Fall, Winter, Spring.
+-The Behavior Dashboard now has additional metrics showing the discipline rate, and number of incidents. The 'over time' chart now just displays the number of discipline actions per day and the distribution of behavior and actions chart now displays top 15 most frequent items for clarity.
+-The Course Grade Dashboard no longer requires a numeric grade. Users can now select either a range of numeric or letter grades.
+-Section Profile now matches section definition with Ed-Fi definition (Section ID, Local Course Code, Session Name)
+-Minor changes to title language in Chronic Absenteeism and Attendance dashboards
 
 ## 3.1 - 03/27/2025
 This release includes a variety of front-end adjustments to enhance and standardize the user experience.
