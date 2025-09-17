@@ -1,6 +1,99 @@
-
 # Leadership Analytics Release Notes
 
+## 5.0.0 - 08/20/2025
+
+This release introduces several enhancements aimed at improving usability and providing more detail across the Leadership Analytics platform. Improvements were also made to the Assessment dashboard to enable multi-season selection and update the order of assessment seasons to chronological order (Fall, Winter, Spring). Additionally, LA added discipline rate metrics and the number of incidents to the Behavior Dashboard, enhanced the Course Grade Dashboards with course and teacher information, implemented grade level ordering for clearer data organization, and loosened the required numeric grade filter to improve flexibility in grade reporting. Finally, LA improved the Section Profile dashboard to match the unique section definition across dashboards. A set of minor user feedback based improvements across dashboards. Please see the "Improvements" and "Bug Fixes" sections for a more detailed list.
+
+Breaking changes:
+
+- All dashboards:
+  - Added grade to the list of student groups that can have flexibility with the backing variable in order to enable ordering. This will cause a break if the dashboards are update before edu_ext_podium
+  - Added gender and race to the list of student groups that can have flexibility with the backing variable at a partner level
+- Behavior Dashboard:
+  - Added count of incidents to dashboard which relies on an edu and edu_ext_podium update. This will cause a break if the dashboards are updated before edu and edu_ext_podium
+
+New Features:
+
+- The Enrollment dashboard now has an "enrollment type" filter. This allows users to select one or more enrollment types.
+
+Improvements:
+
+- All Dashboards:
+ - School year will now be displayed as academic year (e.g., 2024-25). This is configurable by implementation.
+ - Grade levels now can be ordered across all dashboards
+ - Student tables now use a new interactive table format with improved filtering, sorting, and ordering capabilities.
+- Behavior Dashboard:
+ - Added a metric to display discipline rate (number of students with a discipline action out of the total number of students overall).
+ - Added the number of incidents to the Behavior dashboard, this includes: Number of incidents in school table, student table, and as a district metric
+ - Over time chart now just displays number of discipline actions per day for clarity
+ - Distribution of behavior and actions charts now displays Top 15 most frequent items for clarity
+ - In Student Table, replaced Yes/No with number of In-School Suspensions and Out-of-School Suspensions for each student
+
+- Section Profile & Course:
+  - Improved resilience of the Section Profile dashboard by matching Section definition with Ed-Fi definition ( Section ID, Local Course Code, Session Name)
+
+- Course Grade Dashboards:
+  - Course Grades Snapshot no longer requires a numeric grade. Users can now select either a range of numeric grades or letter grades.
+  - Users can now filter to specific courses by course information, local course information, or teachers.
+  - Also added the new section definition to the filter in the Course Grades dashboards
+
+- Enrollment Dashboard:
+  - Add enrolled grade to the Student Table alongside the most recent enrolled grade
+
+- Assessment:
+  - Student Detail: Fixed a bug that caused the Select Student filter to be NULL
+
+- Average Daily Attendance:
+  - Add percentages to the tooltip of the Attendance Category Over Time chart to allow users to better understand the breakdown of the attendance categories at a point in time and over time.
+
+- Assessment Dashboard:
+  - Enablement of multi-season selection for educators to analyze the trends across multiple seasons of tests, for example, ACT and SAT. Order of Assessment Seasons in the dashboards was updated to follow the chronological order of Fall, Winter, Spring.
+
+- Dashboard Descriptions:
+  - Descriptions now include a date for the last time the description itself was updated
+
+Infrastructural changes:
+
+- Introduced a feature to the CLI Tool that allows implementations to swap the language used for student groups/programs
+
+Bug Fixes:
+
+- A bug that duplicated courses in the BI model originated in Stadium. This was fixed, but we are still tracking duplicates caused by co-teaching. We will aim to address that issue in the October release.
+
+## 4.0.9 - 05/22/2025
+
+This release incorporates a number of minor visual enhancements to the LA dashboard. Please review the “Improvements” section for a more detailed list.
+
+Breaking changes: None in this release
+
+New Features (if any): None in this release
+
+Improvements:
+
+- Search in filter values will now search across all values.
+- Assessment dashboard tables will now reflect custom assessment labels
+- Rename “School Year” to “Assessment Year” in Student Profile Assessment chart
+- Assessment dashboards can now display assessments that have overall performance levels, but no scale score
+- A variety of small visual enhancements:
+  - Severity of attendance categories and/or category of chronic absenteeism indicated by stoplight color scheme.
+  - Improved consistency of color palette across student group charts
+  - Clarified language of most recent date across dashboards (With the exception of Section Profile)
+  - Uppercase titles on all section separators.
+  - Added separator in Profile dashboard below School table
+- Updates to Chronic Absenteeism and Attendance dashboards:
+  - Added Absence Percentages to Student and School (ADA only) tables
+  - Changed metric name in School table from “Number of Students” to “Total Number of Students”
+  - Updated chart descriptions for Attendance and Chronic Absenteeism to clarify data availability by selected date
+- Updates to Behavior dashboard:
+  - Clarification of subtitle of number of students in the district metrics
+  - Changed filter name from “Discipline Type” to “Discipline Action”
+  - Updated “Discipline Rate” metric name to “Actions per Student”
+  - Enhancements to the custom assessment label logic to allow for labels to be set at the assessment or assessment family level
+
+Bug Fixes:
+
+- Profile dashboard: Fix bug that restricted discipline data from surfacing in dashboard consistently
+  
 ## 3.1 - 03/27/2025
 This release includes a variety of front-end adjustments to enhance and standardize the user experience.
 - Assessment: Student Detail redesign to clarify selected year assessments vs assessment history.
