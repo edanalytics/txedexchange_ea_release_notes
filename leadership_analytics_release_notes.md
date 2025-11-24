@@ -1,5 +1,31 @@
 # Leadership Analytics Release Notes
 
+## 11/04/2025
+
+The November 2025 release includes updates to parent contact information in dashboards, and model refactoring for the attendance dashboard.
+
+New Features: 
+NA
+
+Improvements:
+- The Attendance dashboard models were refactored in order to maintain the models and increase model performance.
+- Physical address and display of home and cellphone numbers for parents of students has been added to the Chronic Absenteeism dashboard
+
+## 10/07/2025
+
+The October 2025 release includes improvements to the assessment filtering experience, the addition of student transcript information to the student profile, and the resolution of a “duplicate student issue” in courses.
+
+New Features: 
+- A table displaying students' course transcripts has been added to Student Profile to provide more insight into a student's academic history. The table will display underneath the current student grade list. 
+- The Assessment Over Time chart has been modified to enable users to track progress more effectively across seasons and years.
+- The filters on the Assessment page have been sub-divided to improve the filtering experience. The filters now include:
+  - “Select Assessment” (or Family of Assessment)
+  - “Select Subject”
+  - “Select Test Grade”
+
+Improvements:
+NA
+
 ## 5.0.0 - 08/20/2025
 
 This release introduces several enhancements aimed at improving usability and providing more detail across the Leadership Analytics platform. Improvements were also made to the Assessment dashboard to enable multi-season selection and update the order of assessment seasons to chronological order (Fall, Winter, Spring). Additionally, LA added discipline rate metrics and the number of incidents to the Behavior Dashboard, enhanced the Course Grade Dashboards with course and teacher information, implemented grade level ordering for clearer data organization, and loosened the required numeric grade filter to improve flexibility in grade reporting. Finally, LA improved the Section Profile dashboard to match the unique section definition across dashboards. A set of minor user feedback based improvements across dashboards. Please see the "Improvements" and "Bug Fixes" sections for a more detailed list.
