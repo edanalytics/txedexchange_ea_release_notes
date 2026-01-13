@@ -1,5 +1,22 @@
 # Leadership Analytics Release Notes
 
+## Release version: 2025.12.04
+
+The December 2025 Leadership Analytics release includes new filters for Gifted & Talented and Homeless student groups, enabled multi-district users to select multiple LEAs, and improved error pages for clearer troubleshooting. The Assessment Dashboard now features updates to performance distribution and refined performance colors. Enrollment Status filtering is now more intuitive, and backend model updates improve overall performance. We also introduced the new Predictions and Targets Dashboard and resolved several issues, including API credential stability, behavior chart errors, and table ordering in downloads.
+
+### Improvements
+- Filters for Gifted and Talented Status and Homeless Status were added to all dashboards to allow exploration of metrics by these student groups. 
+Users who have access to data from multiple districts will be able to select more than one district in the Select LEA filter in order to see a holistic picture across districts. This feature will not be added to the Student or Section Profile dashboards. 
+Error pages have been updated when a user encounters an error on the dashboard to provide more information on troubleshooting 
+The assessment dashboard now has a chart that shows performance levels distributed across selected schools. This is used to understand student performance across schools or districts.
+- Enrollment Status Filter has been updated to default to "Enrolled" if there are enrolled students and "Not Enrolled" when there are no enrolled students 
+Models for demographics and student groups were refactored in order to increase model performance and sustainability.
+
+### Bugs and other fixes:
+- API credentials have been updated to service email credentials to ensure more stable application usage. 
+Fixed a bug in the section profile dashboard that was causing the behavior charts to error for some users. 
+A bug which caused an error in table order when downloaded from the Student Detail section of the Assessment and Course Grades dashboards has been fixed. 
+
 ## 5.0.0 - 08/20/2025
 
 This release introduces several enhancements aimed at improving usability and providing more detail across the Leadership Analytics platform. Improvements were also made to the Assessment dashboard to enable multi-season selection and update the order of assessment seasons to chronological order (Fall, Winter, Spring). Additionally, LA added discipline rate metrics and the number of incidents to the Behavior Dashboard, enhanced the Course Grade Dashboards with course and teacher information, implemented grade level ordering for clearer data organization, and loosened the required numeric grade filter to improve flexibility in grade reporting. Finally, LA improved the Section Profile dashboard to match the unique section definition across dashboards. A set of minor user feedback based improvements across dashboards. Please see the "Improvements" and "Bug Fixes" sections for a more detailed list.
